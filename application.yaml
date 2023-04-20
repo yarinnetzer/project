@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/yarinnetzer/project.git
     targetRevision: HEAD
-    path: dev
+    path: example-voting-app-kubernetes
 
   destination:
     server: https://kubernetes.default.svc
