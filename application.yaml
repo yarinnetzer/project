@@ -11,7 +11,7 @@ spec:
     targetRevision: main
     path: overlays
     kustomize:
-      version: v3.5.4
+      version: latest
 
   destination:
     server: https://kubernetes.default.svc
