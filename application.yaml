@@ -10,8 +10,6 @@ spec:
     repoURL: https://github.com/yarinnetzer/project.git
     targetRevision: main
     path: overlays
-    kustomize:
-      version: latest
 
   destination:
     server: https://kubernetes.default.svc
