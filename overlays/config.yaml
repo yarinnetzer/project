@@ -8,4 +8,4 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: yarinnetzer/app
+        image: yarinnetzer/app:latest
