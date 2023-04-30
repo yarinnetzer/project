@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: project
+spec:
+  replicas: 2
+  template:
+    spec:
+      containers:
+      - name: flask-app
+        image: yarinnetzer/app

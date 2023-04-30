@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: project
+  labels:
+    app: myapp
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: myapp
+    spec:
+      containers:
+      - name: flask-app
+        image: yarin/app
+  selector:
+    matchLabels:
+      app: myapp
